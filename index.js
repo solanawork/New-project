@@ -14,6 +14,12 @@ const postBtnEl = document.getElementById("post-button")
 
 postBtnEl.addEventListener("click", function() {
     
-    let inputFieldElValue = inputFieldEl.value
+    let inputValue = inputFieldEl.value
+
+    if (inputValue === "") {
+
+    }   else {
+        push(salesRepInDB, inputValue)
+    }
 
 })
