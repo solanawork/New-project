@@ -12,14 +12,15 @@ const salesRepInDB = ref(database, "salesRep")
 const inputFieldEl = document.getElementById("input-field")
 const postBtnEl = document.getElementById("post-button")
 
-postBtnEl.addEventListener("click", function() {
-    
-    let inputValue = inputFieldEl.value
 
+postBtnEl.addEventListener("click", function() {
+
+    let inputValue = inputFieldEl.value
+    
     if (inputValue === "") {
 
-    }   else {
-        push(salesRepInDB, inputValue)
+    } else {
+    push(salesRepInDB, inputValue)
+    
     }
-
 })
