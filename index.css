@@ -13,13 +13,26 @@ html, body {
 }
 
 #input-field {
-    width: 317px;
     height: 118px;
     margin-bottom: 13px;
+    text-align
 }
 
 #post-button {
-    width: 317px;
     height: 50px;
     margin-bottom: 24px;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: aquamarine;
+    margin-bottom: 13px;
+}
+
+textarea {
+    resize: none;
+  }
