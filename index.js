@@ -22,6 +22,7 @@ function clearCommentListEl() {
 
 postBtnEl.addEventListener("click", function() {
 
+
     let inputValue = inputFieldEl.value
     
     if (inputValue === "") {
@@ -69,3 +70,11 @@ function appendCommentToList(comment) {
     
     commentListEl.append(newEl)
 }
+
+
+const fromInputEl = document.getElementById("from-input")
+const toInputEl = document.getElementById("to-input")
+
+let fromInputElValue = fromInputEl.value
+let toInputElValue = toInputEl.value
+
